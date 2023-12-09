@@ -1,3 +1,36 @@
+# Upgrading Simulator for Broken Ranks
+
+Welcome to the Upgrading Simulator for Broken Ranks! This web app simulates the upgrading process of items within the Broken Ranks game. Whether you're a seasoned player looking to plan your upgrades or a newcomer exploring the mechanics, this simulator provides a hands-on experience.
+
+## Features
+
+- Simulate the upgrading process for items in the Broken Ranks game.
+- Customize the items, upgrade paths, and simulate multiple scenarios.
+- Visualize the results and statistics of the upgrading simulations.
+
+## Website
+
+The simulator is accessible online at [https://dkowalski111.github.io/BrokenRanks_UpgradeSimulator/](https://dkowalski111.github.io/BrokenRanks_UpgradeSimulator/).
+
+## Technologies Used
+
+This project is built with:
+
+- React
+- TypeScript
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature/your-feature-name`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature/your-feature-name`.
+5. Submit a pull request.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
