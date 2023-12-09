@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/BrokenRanks_UpgradeSimulator/static/css/main.830072c9.css",
+    "main.js": "/BrokenRanks_UpgradeSimulator/static/js/main.786f6708.js",
+    "static/media/top.jpg": "/BrokenRanks_UpgradeSimulator/static/media/top.72b91aecda86491cb54f.jpg",
+    "static/media/bottom.png": "/BrokenRanks_UpgradeSimulator/static/media/bottom.34c27647d823e3f8bf9a.png",
+    "static/media/card-bckgrnd.jpg": "/BrokenRanks_UpgradeSimulator/static/media/card-bckgrnd.5920d21561477deb9ea7.jpg",
+    "static/media/img__logo.svg": "/BrokenRanks_UpgradeSimulator/static/media/img__logo.56f52804917dffd702d57c5c8663a094.svg",
+    "index.html": "/BrokenRanks_UpgradeSimulator/index.html",
+    "main.830072c9.css.map": "/BrokenRanks_UpgradeSimulator/static/css/main.830072c9.css.map",
+    "main.786f6708.js.map": "/BrokenRanks_UpgradeSimulator/static/js/main.786f6708.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.830072c9.css",
+    "static/js/main.786f6708.js"
+  ]
+}
