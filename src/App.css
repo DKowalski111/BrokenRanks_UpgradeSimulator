@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +38,135 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (min-width: 300px) {
+  .navbar-right {
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbar-right {
+    padding-right: 150px;
+    margin: 0 auto;
+  }
+}
+
+.users-input-headings {
+  width: 50%;
+}
+
+.user-input {
+  font-family: 'Oswald', sans-serif;
+  color:  black;
+  margin: 0 auto;
+  border-radius: 0px;
+  box-shadow: 0px 0px 3px 3px #868e96;
+  width: 30%;
+  background: #868e96;
+  text-align: center;
+  border-style: none;
+  border-color: #868e96;
+}
+
+.user-input::placeholder {
+  color: #495057;
+}
+
+.main-theme-text{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 200;
+  background: linear-gradient(180deg, #ddd, #333);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.left-col{
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .left-col {
+    width: 30%;
+  }
+}
+
+.right-col {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .right-col {
+    width: 50%;
+  }
+}
+
+.mid-col {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .mid-col {
+    width: 10%;
+  }
+}
+
+
+.upgrade-card {
+  max-height: 150px;
+  max-width: 200px;
+  min-width: 150px;
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/card-bckgrnd.jpg");
+  background-size: cover;
+  width: 40%;
+  box-shadow: 0px 0px 3px 1px black;
+}
+
+@media (min-width: 1920px) {
+  .shadows-image {
+    width: 100%;
+  }
+}
+
+.rank-user-choice{
+  width: 2em;
+  height: 2em;
+}
+
+.rank-user-choice.active{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    background: linear-gradient(180deg, #ddd, #333);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    border: solid 2px #868e96;
+    box-shadow: 0 0 3px 1px #868e96
+}
+
+input[type='checkbox']:checked {
+  background-color: #0b7285;
+}
+input[type='checkbox']:checked:after {
+  content: '\2713';
+  color:#e3fafc;
+}
+input[type='checkbox']{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 1em;
+  height: 1em;
+  appearance:none;
+  box-shadow: none;
+  font-size: 1em;
+  background-color: #868e96;
+}
+
+.FooterWrapper {
+  margin-top: auto;
 }
